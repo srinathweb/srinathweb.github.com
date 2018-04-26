@@ -1,31 +1,65 @@
-# top level stuff you probably don't need to touch
-highlighter: pygments
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
-permalink: /:title.html
-paginate: 5
-gems: [jekyll-paginate]
-port: 3000
-safe: true
+url: https://y7kim.github.io
+baseurl: /agency-jekyll-theme/
+
+# Site settings
+title: Awesome Title
+email: your-email@domain.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
-# edit here to achieve your personal greatness
-url: http://srinathweb.github.io/
-baseurl: /
-title: Srinath Madusanka
-author: Srinath Madusanka
-description: Personal blog and resume
-avatar: srinath.png
-email: madusanka525@gmail.com
-github: srinathweb # username
-twitter: 
-linkedin: 
-stackoverflow: /users/2315073/srinath   #e.g: users/2735833/proton1h1
-#Comment out if you don't want disqus 
-#disqus: username
-#google_analytics: UA-69391421-1
+# Team names, titles and social links
+people:
+- name: Kay Garland
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
 
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
 
-# needed for travis-ci build
-exclude: [vendor]
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty

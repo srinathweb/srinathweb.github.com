@@ -1,9 +1,25 @@
-<footer>
-    <div id="footer">
+  <footer>
         <div class="container">
-            <p class="text-muted">© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> and
-            <a href="http://www.github.com/biomadeira/sustain">sustain</a> with ♥</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-</footer>
-<div class="footer"></div>
+    </footer>
