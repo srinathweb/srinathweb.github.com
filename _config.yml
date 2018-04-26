@@ -1,10 +1,10 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://srinathweb.github.io/
+baseurl: /
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Srinath Madusanka
+email: madusanka525@gmail.com
+description: "I am young Web developer having more than 5 years of professional experience in the field of web development. Self-disciplined, highly organized professional with the ability to thrive in high paced environments. Ability to manage many projects at once while ..."
 
 
 # Team names, titles and social links
@@ -45,21 +45,21 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: #
   - title: facebook
     url:
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url: https://stackoverflow.com/users/2315073/srinath-madusanka
   - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: #
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/srinathweb
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 
+  - line: 
 
 # Build settings
-markdown: kramdown
-permalink: pretty
+markdown: 
+permalink: 
