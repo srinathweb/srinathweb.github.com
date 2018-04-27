@@ -63,4 +63,4 @@ address:
 # Build settings
 markdown: 
 permalink: 
-theme: jekyll-theme-hacker
+theme: jekyll-theme-minimal
