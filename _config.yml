@@ -1,0 +1,65 @@
+url: https://srinathweb.github.io/
+baseurl: /
+
+# Site settings
+title: Srinath Madusanka
+email: madusanka525@gmail.com
+description: "I am young Web developer having more than 5 years of professional experience in the field of web development. Self-disciplined, highly organized professional with the ability to thrive in high paced environments. Ability to manage many projects at once while ..."
+
+
+# Team names, titles and social links
+people:
+- name: Kay Garland
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: #
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: https://stackoverflow.com/users/2315073/srinath-madusanka
+  - title: bitbucket 
+    url: #
+  - title: github
+    url: https://github.com/srinathweb
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 
+  - line: 
+
+# Build settings
+markdown: 
+permalink: 
